@@ -1,0 +1,19 @@
+--- 
+hash: 1f3efd5891642342d681aa795d9254262ea6cf56
+sources: 
+- Rubygems: 
+    uri: http://rubygems.org
+specs: 
+- rack: 
+    version: 1.2.0
+- rack-client: 
+    version: 0.3.0
+dependencies: 
+  rack: 
+    version: = 1.2.0
+    group: 
+    - :default
+  rack-client: 
+    version: ">= 0"
+    group: 
+    - :default
