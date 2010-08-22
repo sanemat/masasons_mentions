@@ -1,19 +1,36 @@
 --- 
-hash: 1f3efd5891642342d681aa795d9254262ea6cf56
+hash: 151013f8b6c7e93de1769b3bc97e4bb71be50078
 sources: 
+- Git: 
+    git: http://github.com/sorah/sinatra.git
+    uri: http://github.com/sorah/sinatra.git
+    ref: 77e26f085bf750d1fcdcd8d674484034bf43b125
 - Rubygems: 
     uri: http://rubygems.org
 specs: 
+- monk-glue: 
+    version: 0.0.1
 - rack: 
     version: 1.2.0
 - rack-client: 
     version: 0.3.0
+- sinatra: 
+    version: "1.0"
+    source: 0
 dependencies: 
   rack: 
     version: = 1.2.0
     group: 
     - :default
   rack-client: 
+    version: ">= 0"
+    group: 
+    - :default
+  sinatra: 
+    version: ">= 0"
+    group: 
+    - :default
+  monk-glue: 
     version: ">= 0"
     group: 
     - :default
